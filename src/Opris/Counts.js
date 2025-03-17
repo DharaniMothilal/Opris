@@ -16,7 +16,7 @@ export { Count };
 
 const MainCount = () => {
     const blockData = [
-        { icon: 'images/ci1.svg', count: '100', text: 'Trusted clients' },
+        { icon: './Opris/ci1.svg', count: '100', text: 'Trusted clients' },
         { icon: '/images/ci2.svg', count: '40', text: 'Blockchain Experts' },
         { icon: '/images/ci3.svg', count: '150', text: 'Successful projects' },
         { icon: '/images/ci4.svg', count: '3', text: 'Years of Experience' }, 
