@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Opris/static/css/main.898a8cc2.css",
-    "main.js": "/Opris/static/js/main.147e4553.js",
+    "main.js": "/Opris/static/js/main.aea78f1d.js",
     "static/media/SFProDisplay-Medium.svg": "/Opris/static/media/SFProDisplay-Medium.3460ff347bcf93b54450.svg",
     "static/media/Inter-Medium.svg": "/Opris/static/media/Inter-Medium.c82554b51d61db1708ed.svg",
     "static/media/Inter-Regular.svg": "/Opris/static/media/Inter-Regular.124c86de655caf4c2618.svg",
@@ -48,10 +48,10 @@
     "static/media/plus.svg": "/Opris/static/media/plus.60347958bc5875ddaaec.svg",
     "static/media/db-arr.svg": "/Opris/static/media/db-arr.cf2e100aac4ccfb16f3d.svg",
     "main.898a8cc2.css.map": "/Opris/static/css/main.898a8cc2.css.map",
-    "main.147e4553.js.map": "/Opris/static/js/main.147e4553.js.map"
+    "main.aea78f1d.js.map": "/Opris/static/js/main.aea78f1d.js.map"
   },
   "entrypoints": [
     "static/css/main.898a8cc2.css",
-    "static/js/main.147e4553.js"
+    "static/js/main.aea78f1d.js"
   ]
 }
