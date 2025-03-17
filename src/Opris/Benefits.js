@@ -7,19 +7,19 @@ const Benefits = () => {
     const BeData = [
         {
             id:1,
-            icon: './images/be1.svg',
+            icon: `${process.env.PUBLIC_URL}/images/be1.svg`,
             title: 'Scalability',
             content: 'Our OTC exchange platform is highly scalable, thanks to its modular design. It can handle multiple altcoins, easily integrate with third-party APIs, and allows for custom features and regular updates.'
         },
         {
             id:2,
-            icon: './images/be2.svg',
+            icon: `${process.env.PUBLIC_URL}/images/be2.svg`,
             title: 'Ease for Business',
             content: 'The platform simplifies business operations with features like automatic IP detection for local ads, KYC compliance, fund tracing, transaction reports, and MIS reports.',
         },
         {
             id:3,
-            icon: './images/be3.svg',
+            icon: `${process.env.PUBLIC_URL}/images/be3.svg`,
             title: 'Usability',
             content: 'The platform offers a flexible, user-friendly interface with an intuitive dashboard, market and trade charts, and easy navigation, all designed by UI/UX experts for a smooth trading experience.',
         },

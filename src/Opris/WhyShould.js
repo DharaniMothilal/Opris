@@ -1,22 +1,22 @@
 const ExchangePlatform = () => {
     const exData = [
         {
-            icon: './images/e-icon1.svg',
+            icon: `${process.env.PUBLIC_URL}/images/e-icon1.svg`,
             title: '360-Degree Support',
             desc: 'We offer full support at every step, from design and development to deployment and marketing, to ensure your OTC crypto exchange succeeds.'
         },
         {
-            icon: './images/e-icon2.svg',
+            icon: `${process.env.PUBLIC_URL}/images/e-icon2.svg`,
             title: 'Whitelabel Platform',
             desc: 'We offer full support at every step, from design and development to deployment and marketing, to ensure your OTC crypto exchange succeeds.'
         },
         {
-            icon: './images/e-icon3.png',
+            icon: `${process.env.PUBLIC_URL}/images/e-icon3.png`,
             title: 'Scalable Growth',
             desc: 'No matter your budget or the features you want, we can scale the platform to meet your needs.'
         },
         {
-            icon: './images/e-icon4.svg',
+            icon: `${process.env.PUBLIC_URL}/images/e-icon4.svg`,
             title: 'Multiplatform',
             desc: 'Your users can access your OTC crypto exchange platform from different devices with various operating systems.'
         },

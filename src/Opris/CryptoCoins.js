@@ -4,15 +4,15 @@ import 'swiper/css/autoplay';
 import { Autoplay } from "swiper/modules";
 const CryptoCoins = () => {
     const coins = [
-        { img: './images/coin1.svg', text: 'Bitcoin (BTC)' },
-        { img: './images/coin2.svg', text: 'Ethereum (ETH)' },
-        { img: './images/coin3.svg', text: 'Bitcoin Cash (BCH)' },
-        { img: './images/coin4.svg', text: 'Litecoin (LTC)' },
-        { img: './images/coin5.svg', text: 'Ripple (XRP)' },
-        { img: './images/coin6.svg', text: ' PrimeCoin' },
-        { img: './images/coin7.svg', text: 'NXT' },
-        { img: './images/coin8.svg', text: 'Solana (SOL)' },
-        { img: './images/coin9.svg', text: ' Feathercoin' },
+        { img: `${process.env.PUBLIC_URL}/images/coin1.svg`, text: 'Bitcoin (BTC)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin2.svg`, text: 'Ethereum (ETH)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin3.svg`, text: 'Bitcoin Cash (BCH)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin4.svg`, text: 'Litecoin (LTC)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin5.svg`, text: 'Ripple (XRP)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin6.svg`, text: ' PrimeCoin' },
+        { img: `${process.env.PUBLIC_URL}/images/coin7.svg`, text: 'NXT' },
+        { img: `${process.env.PUBLIC_URL}/images/coin8.svg`, text: 'Solana (SOL)' },
+        { img: `${process.env.PUBLIC_URL}/images/coin9.svg`, text: ' Feathercoin' },
     ];
     return (
         <section className="cryptoCoins-blk">

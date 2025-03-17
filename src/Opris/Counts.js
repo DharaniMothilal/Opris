@@ -16,11 +16,11 @@ export { Count };
 
 const MainCount = () => {
     const blockData = [
-        { icon: './Opris/ci1.svg', count: '100', text: 'Trusted clients' },
-        { icon: '/images/ci2.svg', count: '40', text: 'Blockchain Experts' },
-        { icon: '/images/ci3.svg', count: '150', text: 'Successful projects' },
-        { icon: '/images/ci4.svg', count: '3', text: 'Years of Experience' }, 
-        { icon: '/images/ci5.svg', count: '30', text: 'Nations served' }
+        { icon: `${process.env.PUBLIC_URL}/images/ci1.svg`, count: '100', text: 'Trusted clients' },
+        { icon: `${process.env.PUBLIC_URL}/images/ci2.svg`, count: '40', text: 'Blockchain Experts' },
+        { icon: `${process.env.PUBLIC_URL}/images/ci3.svg`, count: '150', text: 'Successful projects' },
+        { icon: `${process.env.PUBLIC_URL}/images/ci4.svg`, count: '3', text: 'Years of Experience' }, 
+        { icon: `${process.env.PUBLIC_URL}/images/ci5.svg`, count: '30', text: 'Nations served' }
     ];
     return (
         <section className="counts-section">

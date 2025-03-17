@@ -6,35 +6,35 @@ const SoftwareTabs = () => {
         {
             id: 'tab1',
             title: 'Commodities',
-            icon: './images/s1-icon.svg',
+            icon: `${process.env.PUBLIC_URL}/images/s1-icon.svg`,
             hd: 'Commodities',
             para: 'Commodities can be turned into cryptocurrencies and then traded on the OTC exchange platform.'
         },
         {
             id: 'tab2',
             title: 'P2p Trading',
-            icon: './images/s1-icon.svg',
+            icon: `${process.env.PUBLIC_URL}/images/s1-icon.svg`,
             hd: 'P2p Trading',
             para: 'P2p Trading can be turned into cryptocurrencies and then traded on the OTC exchange platform.'
         },
         {
             id: 'tab3',
             title: 'Liquidity',
-            icon: './images/s1-icon.svg',
+            icon: `${process.env.PUBLIC_URL}/images/s1-icon.svg`,
             hd: 'Liquidity',
             para: 'Liquidity can be turned into cryptocurrencies and then traded on the OTC exchange platform.'
         },
         {
             id: 'tab4',
             title: 'Revenue Generation',
-            icon: './images/s1-icon.svg',
+            icon: `${process.env.PUBLIC_URL}/images/s1-icon.svg`,
             hd: 'Revenue Generation',
             para: 'Revenue Generation can be turned into cryptocurrencies and then traded on the OTC exchange platform.'
         },
         {
             id: 'tab5',
             title: 'E-Commerce',
-            icon: './images/s1-icon.svg',
+            icon: `${process.env.PUBLIC_URL}/images/s1-icon.svg`,
             hd: 'E-Commerce',
             para: 'E-Commerce can be turned into cryptocurrencies and then traded on the OTC exchange platform.'
         },

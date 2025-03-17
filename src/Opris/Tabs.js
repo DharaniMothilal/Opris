@@ -10,7 +10,7 @@ const TabCarousel = () => {
         {
             id: "tab1",
             title: 'Trading Mechanisms',
-            img: './images/oc-lap.png',
+            img: `${process.env.PUBLIC_URL}/images/oc-lap.png`,
             hd: 'Trading Mechanisms',
             para: 'The platform must support advanced trading mechanisms such as limit orders and stop orders. Since OTC trading typically involves larger transactions, the system should be capable of executing these trades discreetly, ensuring minimal impact on market prices.',
             buttonText: 'View Demo'
@@ -18,7 +18,7 @@ const TabCarousel = () => {
         {
             id: "tab2",
             title: 'Multi-Cryptocurrency Wallet',
-            img: './images/oc-lap.png',
+            img: `${process.env.PUBLIC_URL}/images/oc-lap.png`,
             hd: 'Multi-Cryptocurrency Wallet',
             para: 'The platform must support advanced trading mechanisms such as limit orders and stop orders',
             buttonText: 'View Demo'
@@ -26,7 +26,7 @@ const TabCarousel = () => {
         {
             id: "tab3",
             title: 'Multi-Layer Security',
-            img: './images/oc-lap.png',
+            img: `${process.env.PUBLIC_URL}/images/oc-lap.png`,
             hd: 'Multi-Layer Security',
             para: 'The platform must support advanced trading mechanisms such as limit orders and stop orders',
             buttonText: 'View Demo'
@@ -34,7 +34,7 @@ const TabCarousel = () => {
         {
             id: "tab4",
             title: 'Instant Buy/Sell',
-            img: './images/oc-lap.png',
+            img: `${process.env.PUBLIC_URL}/images/oc-lap.png`,
             hd: 'Instant Buy/Sell',
             para: 'The platform must support advanced trading mechanisms such as limit orders and stop orders',
             buttonText: 'View Demo'
